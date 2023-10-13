@@ -1,0 +1,64 @@
+<Packages>
+    <ApplicationName>GNAT Community</ApplicationName>
+    <ApplicationVersion>1.0.0</ApplicationVersion>
+    <Package>
+        <Name>com.adacore</Name>
+        <Title>GNAT Community 2021</Title>
+        <Description>Install AdaCore Products</Description>
+        <Version>2021</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2023-10-13</InstallDate>
+        <Size>277544</Size>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>com.adacore.gnat</Name>
+        <Title>GNAT compiler toolchain</Title>
+        <Description>The GNAT toolchain.
+For building software in Ada 2012, C, and C++.
+    </Description>
+        <Version>2021</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2023-10-13</InstallDate>
+        <Size>1165377036</Size>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>com.adacore.gnatstudio</Name>
+        <Title>GNAT Studio integrated development environment</Title>
+        <Description>The GNAT Studio IDE for developing SPARK, Ada,
+ C and C++ software. Also with support for Python.
+</Description>
+        <Version>2021</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2023-10-13</InstallDate>
+        <Size>814853646</Size>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>com.adacore.libadalang</Name>
+        <Title>Libadalang</Title>
+        <Description>
+      Libadalang is a library for parsing and semantic analysis of Ada code. It
+      is meant as a building block for integration into other tools. (IDE,
+      static analyzers, etc.)
+    </Description>
+        <Version>2021</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2023-10-13</InstallDate>
+        <Size>473652683</Size>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>com.adacore.spark2014_discovery</Name>
+        <Title>SPARK toolset</Title>
+        <Description>The SPARK 2014 verifier and prover toolchain: guarantee that your
+software is free from run-time errors, and prove key program properties.
+</Description>
+        <Version>2021</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2023-10-13</InstallDate>
+        <Size>612599520</Size>
+        <Checkable>true</Checkable>
+    </Package>
+</Packages>

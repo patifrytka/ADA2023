@@ -1,0 +1,98 @@
+************************************* Invoked: pt. paü 13 13:28:08 2023
+[0] Arguments: M:\scoped_dir6296_888013493\gnat-2021-20210519-x86_64-windows64-bin.exe
+[7] Operations sanity check succeeded.
+[1377] Loaded control script ":/metadata/installer-config/configscript_qs.qs"
+[1377] Using control script: ":/metadata/installer-config/configscript_qs.qs"
+[46238] Control script callback "StartMenuDirectoryPageCallback" does not exist.
+[66805] Tmp is on a different volume than the installation directory. Tmp volume mount point: "C:\\" Free space available: "46.87 GiB" Install volume mount point: "M:\\" Free space available: "562.94 GiB"
+[66805] Installation space required: "3.11 GiB" Temporary space required: "256.00 MiB" Local repository size: "0.00 bytes"
+[67828] Control script callback "PerformInstallationPageCallback" does not exist.
+[67861] backup  operation: Mkdir
+[67861] 	- arguments: M:/GNAT/2021
+[67861] Done
+[67861] perform  operation: Mkdir
+[67861] 	- arguments: M:/GNAT/2021
+[67861] Done
+[67862] Install size: 5 components
+[67913] backup com.adacore operation: Extract
+[67913] 	- arguments: installer://com.adacore/2021content.7z, M:\GNAT\2021
+[67913] Done
+[67914] perform com.adacore operation: Extract
+[67914] 	- arguments: installer://com.adacore/2021content.7z, M:\GNAT\2021
+[67920] Done
+[67921] backup com.adacore operation: License
+[67921] 	- arguments:
+[67921] Done
+[67921] perform com.adacore operation: License
+[67921] 	- arguments:
+[67921] Done
+[67922] backup com.adacore.gnat operation: Extract
+[67922] 	- arguments: installer://com.adacore.gnat/2021payload.7z, M:\GNAT\2021
+[67922] Done
+[67922] perform com.adacore.gnat operation: Extract
+[67922] 	- arguments: installer://com.adacore.gnat/2021payload.7z, M:\GNAT\2021
+[100854] Done
+[101313] backup com.adacore.gnat operation: Execute
+[101313] 	- arguments: cmd.exe, /c, cd, M:\GNAT\2021, &&, attrib.exe, +r, /s, *.ali, UNDOEXECUTE
+[101313] Done
+[101314] perform com.adacore.gnat operation: Execute
+[101314] 	- arguments: cmd.exe, /c, cd, M:\GNAT\2021, &&, attrib.exe, +r, /s, *.ali, UNDOEXECUTE
+[101326] cmd.exe" started, arguments: "/c cd M:\\GNAT\\2021 && attrib.exe +r /s *.ali
+[101907] Done
+[101908] backup com.adacore.libadalang operation: Extract
+[101908] 	- arguments: installer://com.adacore.libadalang/2021payload.7z, M:\GNAT\2021
+[101908] Done
+[101908] perform com.adacore.libadalang operation: Extract
+[101908] 	- arguments: installer://com.adacore.libadalang/2021payload.7z, M:\GNAT\2021
+[107501] Done
+[107502] backup com.adacore.spark2014_discovery operation: Extract
+[107502] 	- arguments: installer://com.adacore.spark2014_discovery/2021payload.7z, M:\GNAT\2021
+[107502] Done
+[107502] perform com.adacore.spark2014_discovery operation: Extract
+[107502] 	- arguments: installer://com.adacore.spark2014_discovery/2021payload.7z, M:\GNAT\2021
+[141286] Done
+[141459] backup com.adacore.gnatstudio operation: Extract
+[141459] 	- arguments: installer://com.adacore.gnatstudio/2021payload.7z, M:\GNAT\2021
+[141459] Done
+[141459] perform com.adacore.gnatstudio operation: Extract
+[141459] 	- arguments: installer://com.adacore.gnatstudio/2021payload.7z, M:\GNAT\2021
+[179165] Done
+[179247] backup com.adacore.gnatstudio operation: RegisterFileType
+[179247] 	- arguments: ada, M:\GNAT\2021\bin\gnatstudio.exe %1, Ada file, text/plain, M:\GNAT\2021\gnaticons.dll,17
+[179247] Done
+[179247] perform com.adacore.gnatstudio operation: RegisterFileType
+[179247] 	- arguments: ada, M:\GNAT\2021\bin\gnatstudio.exe %1, Ada file, text/plain, M:\GNAT\2021\gnaticons.dll,17
+[179253] Done
+[179253] backup com.adacore.gnatstudio operation: RegisterFileType
+[179253] 	- arguments: ads, M:\GNAT\2021\bin\gnatstudio.exe %1, Ada spec file, text/plain, M:\GNAT\2021\gnaticons.dll,16
+[179253] Done
+[179253] perform com.adacore.gnatstudio operation: RegisterFileType
+[179253] 	- arguments: ads, M:\GNAT\2021\bin\gnatstudio.exe %1, Ada spec file, text/plain, M:\GNAT\2021\gnaticons.dll,16
+[179258] Done
+[179258] backup com.adacore.gnatstudio operation: RegisterFileType
+[179258] 	- arguments: adb, M:\GNAT\2021\bin\gnatstudio.exe %1, Ada body file, text/plain, M:\GNAT\2021\gnaticons.dll,15
+[179258] Done
+[179258] perform com.adacore.gnatstudio operation: RegisterFileType
+[179258] 	- arguments: adb, M:\GNAT\2021\bin\gnatstudio.exe %1, Ada body file, text/plain, M:\GNAT\2021\gnaticons.dll,15
+[179263] Done
+[179263] backup com.adacore.gnatstudio operation: RegisterFileType
+[179263] 	- arguments: gpr, M:\GNAT\2021\bin\gnatstudio.exe -P%1, GNAT project file, text/plain, M:\GNAT\2021\gnaticons.dll,14
+[179263] Done
+[179263] perform com.adacore.gnatstudio operation: RegisterFileType
+[179263] 	- arguments: gpr, M:\GNAT\2021\bin\gnatstudio.exe -P%1, GNAT project file, text/plain, M:\GNAT\2021\gnaticons.dll,14
+[179268] Done
+[179268] backup com.adacore.gnatstudio operation: CreateShortcut
+[179268] 	- arguments: M:\GNAT\2021\bin\gnatstudio.exe, C:\Users\Karina\Desktop\GNAT Studio.lnk
+[179268] Done
+[179268] perform com.adacore.gnatstudio operation: CreateShortcut
+[179268] 	- arguments: M:\GNAT\2021\bin\gnatstudio.exe, C:\Users\Karina\Desktop\GNAT Studio.lnk
+[179435] Done
+[179435] backup com.adacore.gnatstudio operation: CreateShortcut
+[179435] 	- arguments: M:\GNAT\2021\bin\gnatstudio.exe, C:\Users\Karina\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\GNAT Community\GNAT Studio.lnk
+[179436] Done
+[179436] perform com.adacore.gnatstudio operation: CreateShortcut
+[179436] 	- arguments: M:\GNAT\2021\bin\gnatstudio.exe, C:\Users\Karina\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\GNAT Community\GNAT Studio.lnk
+[179454] Done
+[179458] Writing maintenance tool: "M:\\GNAT\\2021/maintenancetool.exe.new"
+[179487] Wrote permissions for maintenance tool.
+[181207] Maintenance tool restart: false.
